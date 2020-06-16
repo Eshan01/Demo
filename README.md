@@ -1,2 +1,4 @@
 # Demo
-Just trying to learn new, "how to create a repository"
+Learning phase
+1."how to create a repository"
+3.HTML basic
