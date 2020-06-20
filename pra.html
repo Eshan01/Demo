@@ -9,8 +9,90 @@
         <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore natus possimus maxime reiciendis voluptatum minima saepe velit. Voluptas deleniti quaerat quod provident et impedit 
             quasi eos ea. Beatae, possimus sunt magni vitae vero corporis aliquam a blanditiis culpa ut, accusantium voluptates dolorum odio rerum ipsam libero quia, ea tempore repudiandae?</i></p>
             <hr/>
-            <h3>Space</h3>
-            <p>Look what i've done</p>
+
+            <!--list-->
+            <ul>
+                <li>List item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+            </ul>
+            <ol>
+                    <li>List item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+            </ol>
+
+            <!--Table-->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ethan</td>
+                        <td>ethan@xyz.com</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>Kevin</td>
+                        <td>kevin96@xyz.com</td>
+                        <td>40</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <hr/>
+            <form action="process.php" method="GET">
+                <div>
+                    <label >First Name</label>
+                    <input type="text" name="first-name" placeholder="First name">
+                </div>
+                <br>
+                <div>    
+                    <label >Last Name</label>
+                    <input type="text" name="lastName" placeholder="last name">
+                </div>
+
+                <br>
+                <div>
+                    <label >Email</label>
+                    <input type="email" name="Email">
+                </div>
+
+                <br>
+                <div>
+                    <label for="">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label>Gender</label>
+                    <select name="gender" id="">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Birthday</label>
+                    <input type="date" name="birthday">
+                </div>
+                <br>
+                <div>
+                    <lable>Age</lable>
+                    <input type="number" name="age" value="0">
+                </div>
+                <input type="submit" name="submit" value="submit">
+                <!--button-->
+                <button>Click</button><hr/>
+                <!--Image-->
+                <img src="images/sample.jpg" alt="Sample Image" width="200" height="200">
+            </form>
     </body>
 </head>
 </html>
